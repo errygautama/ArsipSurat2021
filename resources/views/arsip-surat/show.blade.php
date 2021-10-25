@@ -20,8 +20,11 @@
                             <h5>Judul : {{ $surats->judul }}</h5>
                             <h5>Waktu Pengarsipan : {{ $surats->created_at }}</h5>
 
-                            <embed src="{{asset('storage/'.$surats->file_surat)}}"
-                                type="application/pdf" frameBorder="0" scrolling="auto" height="1500px" width="985px"></embed>
+                            <center>
+                                <embed src="{{asset('storage/'.$surats->file_surat)}}"
+                                type="application/pdf" frameBorder="0" scrolling="auto" height="1000px" width="900px"></embed>
+                            </center>
+                            
                     </div>
                 </div>
 
