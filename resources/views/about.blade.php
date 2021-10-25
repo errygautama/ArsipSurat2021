@@ -4,7 +4,7 @@
     <section class="section">
         <div class="section">
             <div class="section-header">
-                <h1>Arsip Surat >> Lihat</h1>
+                <h1>About</h1>
             </div>
             <div class="section-body">
                     <div class="card card-primary">
